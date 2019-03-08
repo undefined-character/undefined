@@ -1,0 +1,34 @@
+/*//META{"name":"起死回生﻿﻿","description":"wake from death and return to life.","author":"Swine","version":"X", "website":"http://swine.wtf", "source":"https://steamcommunity.com/id/Autopeek/"}*//**/
+
+@import url('https://tropix126.github.io/BetterDiscordStuff/aurora/css/base.css');
+
+:root {
+/*Color Variables*/
+	--main-color: linear-gradient(150deg, #191919, #1e1e1e); /*Accent Color of the Theme*/
+	--hover-color: #638a00; /*Secondary Accent of the Theme*/
+	--main-color-faded: linear-gradient(150deg, #0f0f0f, #141414); /*Faded Main Color*/
+/*Backdrop Variables*/
+	--backdrop: url(https://i.imgur.com/NUMK20c.png); /*Normal Backdrop*/
+	--backdropblurred: url(https://i.imgur.com/tjU9Zzq.png); /*Darker/Blurred Version of Backdrop*/
+	--backdrop-darkness: transparent !important; /*Brightness of var(--backdrop);*/
+/*Roundness Variables*/
+	--chat-avatar-roundness:5px !important; /*Roundness of chat avatars*/
+	--media-roundness:50px !important; /*General Roundness*/
+	--guild-hovered-roundness:12px !important; /*Roundness of servers on hover*/
+/*Status Variables*/
+	--online: #638a00 !important; /*Color When someone is Online*/
+	--idle: #ff4a00 !important; /*Color When someone is Idle*/
+	--dnd: #00317a !important; /*Color When someone is in Do Not Disturb*/
+	--offline: #000000 !important; /*Color When someone is offline*/
+	--invisible: #000000 !important; /*Color When someone is Invisible*/
+	--streaming: #643da7 !important; /*Color When someone is Streaming*/
+}
+
+.callAvatarBorder-1D_KaE.video-3GgX2M.speaking-oCqYMI {
+    border-radius: 1px;
+    box-shadow: inset 0 0 0 2px #ff4a00 !important;
+}
+
+.callAvatarBorder-1D_KaE.video-3GgX2M.selected-2esnyn:not(.speaking-oCqYMI):not(.soundsharing-102bS9) {
+    box-shadow: inset 0 0 0 2px #00317a !important;
+}
